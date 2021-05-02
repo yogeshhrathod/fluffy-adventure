@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fluffy-adventure/static/css/main.bcd98973.chunk.css",
+    "main.css": "/fluffy-adventure/static/css/main.4543155c.chunk.css",
     "main.js": "/fluffy-adventure/static/js/main.c65fb2b3.chunk.js",
     "main.js.map": "/fluffy-adventure/static/js/main.c65fb2b3.chunk.js.map",
     "runtime-main.js": "/fluffy-adventure/static/js/runtime-main.dd9b88b4.js",
@@ -10,13 +10,13 @@
     "static/js/3.9a5507a7.chunk.js": "/fluffy-adventure/static/js/3.9a5507a7.chunk.js",
     "static/js/3.9a5507a7.chunk.js.map": "/fluffy-adventure/static/js/3.9a5507a7.chunk.js.map",
     "index.html": "/fluffy-adventure/index.html",
-    "static/css/main.bcd98973.chunk.css.map": "/fluffy-adventure/static/css/main.bcd98973.chunk.css.map",
+    "static/css/main.4543155c.chunk.css.map": "/fluffy-adventure/static/css/main.4543155c.chunk.css.map",
     "static/js/2.1e101dd8.chunk.js.LICENSE.txt": "/fluffy-adventure/static/js/2.1e101dd8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd9b88b4.js",
     "static/js/2.1e101dd8.chunk.js",
-    "static/css/main.bcd98973.chunk.css",
+    "static/css/main.4543155c.chunk.css",
     "static/js/main.c65fb2b3.chunk.js"
   ]
 }
