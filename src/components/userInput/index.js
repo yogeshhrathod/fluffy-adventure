@@ -118,7 +118,7 @@ function UserInput() {
         <div className="box">
           <h4>How to play:</h4>
           <div>
-            You have to type albhabets in sequence and mesure the time how fast
+            You have to type alphabet in sequence and measure the time how fast
             you can type.
           </div>
           <div>Compete with you and with friends and Enjoy :-)</div>
