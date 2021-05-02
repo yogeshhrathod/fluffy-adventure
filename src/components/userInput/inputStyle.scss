@@ -21,6 +21,11 @@
     outline: none;
   }
 }
+@media screen and (max-width: 600px) {
+  .input {
+    width: 90%;
+  }
+}
 
 .valid {
   font-weight: 700;
