@@ -22,6 +22,10 @@
   }
 }
 
+.valid {
+  font-weight: 700;
+  color: lime;
+}
 .invalid {
   font-weight: 700;
   color: tomato;
@@ -46,6 +50,7 @@
 .width {
   width: 50px;
 }
+
 button {
   cursor: pointer;
   background: transparent;
@@ -58,5 +63,15 @@ button {
   &:active {
     color: black;
     background: white;
+  }
+}
+
+.how {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  .box {
+    padding: 20px;
+    border: 1px solid white;
   }
 }

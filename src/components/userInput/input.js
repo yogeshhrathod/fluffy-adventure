@@ -20,6 +20,9 @@ export default function AlphaInput(props) {
   };
 
   const checkInput = (event) => {
+    if (event.target.value.length > 26) {
+      return;
+    }
     setValue(event.target.value);
     if (isfirstEvent) {
       setIsFirstEvent(false);
@@ -53,6 +56,7 @@ export default function AlphaInput(props) {
   return (
     <div className="container">
       <input
+        autocomplete="off"
         ref={alphaInput}
         value={value}
         maxLength="26"

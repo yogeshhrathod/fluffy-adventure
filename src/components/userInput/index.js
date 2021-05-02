@@ -43,6 +43,17 @@ function UserInput() {
     foucsInput();
   }, []);
 
+  const getCharColor = (status) => {
+    switch (status) {
+      case true:
+        return "valid";
+      case false:
+        return "invalid";
+      default:
+        return "";
+    }
+  };
+
   const foucsInput = () => {
     alphaInput.current.focus();
   };
@@ -78,9 +89,7 @@ function UserInput() {
       <div className="d-flex justify-center flex-wrap">
         {arrangedAlpha[0].map((character, index) => (
           <span
-            className={`char ${
-              arrangedAlpha[1][index] === false ? "invalid" : ""
-            }`}
+            className={`char ${getCharColor(arrangedAlpha[1][index])}`}
             key={`apha${index}`}
           >
             {character}
@@ -103,6 +112,17 @@ function UserInput() {
       ></AlphaInput>
       <div className="d-flex justify-center mt-3">
         <button onClick={() => reset()}>Reset</button>
+      </div>
+
+      <div className="how">
+        <div className="box">
+          <h4>How to play:</h4>
+          <div>
+            You have to type albhabets in sequence and mesure the time how fast
+            you can type.
+          </div>
+          <div>Compete with you and with friends and Enjoy :-)</div>
+        </div>
       </div>
     </>
   );
