@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  font-size: medium;
+  width: 50%;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid white;
+  text-align: center;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.invalid {
+  font-weight: 700;
+  color: tomato;
+}
+
+.char {
+  padding: 0.5rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.width {
+  width: 50px;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  color: wheat;
+  padding: 5px 15px;
+  border: 1px solid white;
+  &:hover {
+    background: rgba(255, 255, 255, 0.116);
+  }
+  &:active {
+    color: black;
+    background: white;
+  }
+}
